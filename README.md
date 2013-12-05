@@ -213,6 +213,7 @@ to something similar to "http://domain/#channel/2011-03-09 14:25:09", or
     *   "supertoasty"
     *   "pushbullet"
     *   "url"
+    *   "im.kayac"
 
 *   `username = ""`
 
@@ -234,6 +235,12 @@ to something similar to "http://domain/#channel/2011-03-09 14:25:09", or
     notifications to; if blank or unset, notifications will be sent to all devices.
 
     This option must be set when using PushBullet.
+
+*   `password = ""`
+
+    Authentication password for push notifications.
+
+    This option can be set when using Notify im.kayac. (optional)
 
 ### Notifications
 
